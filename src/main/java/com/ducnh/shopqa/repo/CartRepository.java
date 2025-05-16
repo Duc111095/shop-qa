@@ -11,6 +11,6 @@ import com.ducnh.shopqa.entity.Cart;
 @Repository
 public interface CartRepository extends CrudRepository<Cart, String> {
     List<Cart> findByUserId(Long userId);
-    @Query(value = "SELECT MAX(cartId) FROM Cart")
+    @Query(nativeQuery = true, value =  "SELECT MAX(cartId) as max_id FROM Cart")
     String findMaxCartId();
 }

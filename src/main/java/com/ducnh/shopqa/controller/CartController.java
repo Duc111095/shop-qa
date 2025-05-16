@@ -45,13 +45,7 @@ public class CartController {
         cartService.addToCart(cart.getUserId());
         return ResponseEntity.ok().build();
     }
-
-    @PostMapping("")
-    public ResponseEntity<Void> addCart(@RequestBody Long userId) {
-        cartService.addToCart(userId);
-        return ResponseEntity.ok().build();
-    }
-
+    
     @PutMapping("/{id}")
     public ResponseEntity<Cart> updateCart(@PathVariable String id, @RequestBody Cart cart) {
         cartService.updateCart(id, cart.getUserId());
