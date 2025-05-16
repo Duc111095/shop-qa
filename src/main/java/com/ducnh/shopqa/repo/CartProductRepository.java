@@ -11,4 +11,5 @@ import com.ducnh.shopqa.entity.CartProduct;
 public interface CartProductRepository extends CrudRepository<CartProduct, Long> {
     List<CartProduct> findByCartId(String cartId);
     List<CartProduct> findByProductId(Long productId);
+    void deleteByCartIdAndProductId(Long cartId, Long productId);
 }

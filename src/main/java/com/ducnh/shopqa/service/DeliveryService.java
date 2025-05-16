@@ -26,4 +26,8 @@ public class DeliveryService {
     public void updateDelivery(Delivery delivery) {
         deliveryRepository.save(delivery);
     }
+
+    public void deleteDeliveryById(Long id) {
+        deliveryRepository.deleteById(id);
+    }
 }
