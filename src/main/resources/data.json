@@ -1,0 +1,432 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "user",
+      "password": "user",
+      "role": "user"
+    },
+    {
+      "id": "3",
+      "username": "hanhoa",
+      "password": "123",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Áo khoác nam hai lớp",
+      "price": 380000,
+      "discount": 280000,
+      "category": "Thời trang nam",
+      "type": "Áo khoác",
+      "material": "Vải Wool-like",
+      "image": "../../assets/images/ao-nam-1.jpg",
+      "size": "XS, S, M, L, XL"
+    },
+    {
+      "id": "2",
+      "name": "Áo khoác nam kaki",
+      "price": 480000,
+      "discount": 420000,
+      "image": "../../assets/images/ao-nam-2.jpg",
+      "category": "Thời trang nam",
+      "type": "Áo khoác",
+      "material": "Vải Kaki",
+      "size": "S"
+    },
+    {
+      "id": "3",
+      "name": "Áo khoác nam quân đội",
+      "price": 260000,
+      "discount": 190000,
+      "image": "../../assets/images/ao-nam-3.jpg",
+      "category": "Thời trang nam",
+      "type": "Áo khoác",
+      "material": "Vải 100% Cotton",
+      "size": "XS, S"
+    },
+    {
+      "id": "4",
+      "name": "Áo khoác nam thám hiểm classic quân đội",
+      "price": 350000,
+      "discount": 300000,
+      "image": "../../assets/images/ao-nam-4.jpg",
+      "category": "Thời trang nam",
+      "type": "Áo khoác",
+      "material": "Vải 50% Cotton, 50% Polyester cao cấp",
+      "size": "L, XL"
+    },
+    {
+      "id": "5",
+      "name": "Áo Măng Tô Nam Dáng Dài Cổ Ve Tây Classic",
+      "price": 550000,
+      "discount": 450000,
+      "image": "../../assets/images/ao-nam-5.jpg",
+      "category": "Thời trang nam",
+      "type": "Áo khoác",
+      "material": "Dạ len cao cấp (80% wool, 20% polyester)",
+      "size": "M, L, XL"
+    },
+    {
+      "id": "6",
+      "name": "Áo Măng Tô Nam Dáng Suông Cổ Vest Chéo Urban Line",
+      "price": 620000,
+      "discount": 520000,
+      "image": "../../assets/images/ao-nam-6.jpg",
+      "category": "Thời trang nam",
+      "type": "Áo khoác",
+      "material": "Vải dạ nỉ Hàn cao cấp (60% wool, 30% viscose, 10% spandex)",
+      "size": "L, XL"
+    },
+    {
+      "id": "7",
+      "name": "Áo phong cách tím than lịch lãm",
+      "price": 250000,
+      "discount": 220000,
+      "image": "../../assets/images/ao-nam-7.jpg",
+      "category": "Thời trang nam",
+      "type": "Áo khoác",
+      "material": "Vải Cotton",
+      "size": "XS, S, M, L, XL"
+    },
+    {
+      "id": "8",
+      "name": "Áo phong cách trắng thanh lịch",
+      "price": 250000,
+      "discount": 220000,
+      "image": "../../assets/images/ao-nam-8.jpg",
+      "category": "Thời trang nam",
+      "type": "Áo khoác",
+      "material": "Vải Cotton",
+      "size": "XS, S"
+    },
+    {
+      "id": "9",
+      "name": "Áo nam hoodie phong cách thể thao",
+      "price": 3700000,
+      "discount": 1690000,
+      "image": "../../assets/images/ao-nam-9.jpg",
+      "category": "Thời trang nam",
+      "type": "Áo khoác",
+      "material": "Vải Wool-like",
+      "size": "XS, S, M, L, XL"
+    },
+    {
+      "id": "10",
+      "name": "Áo nữ dễ thương",
+      "price": 150000,
+      "discount": 99000,
+      "image": "../../assets/images/ao-nu-1.jpg",
+      "category": "Thời trang nữ",
+      "type": "Áo thun",
+      "material": "Vải Cotton",
+      "size": "XS, S"
+    },
+    {
+      "id": "11",
+      "name": "Áo nữ trẻ trung",
+      "price": 200000,
+      "discount": 100000,
+      "image": "../../assets/images/ao-nu-2.jpg",
+      "category": "Thời trang nữ",
+      "type": "Áo thun",
+      "material": "Vải Cotton",
+      "size": "XS, S, M, L, XL"
+    },
+    {
+      "id": "12",
+      "name": "Áo nữ thanh lịch",
+      "price": 100000,
+      "discount": 80000,
+      "image": "../../assets/images/ao-nu-3.jpg",
+      "category": "Thời trang nữ",
+      "type": "Áo thun",
+      "material": "Vải 50% Cotton, 50% Polyester",
+      "size": "XS, S"
+    },
+    {
+      "id": "13",
+      "name": "Giày tây nam",
+      "price": 3700000,
+      "discount": 3490000,
+      "image": "../../assets/images/giay-nam-1.jpg",
+      "category": "Thời trang nam",
+      "type": "Giày",
+      "material": "Da thật (Leather)",
+      "size": "39-44"
+    },
+    {
+      "id": "14",
+      "name": "Giày cao gót sang trọng",
+      "price": 400000,
+      "discount": 349000,
+      "image": "../../assets/images/giay-nu-1.jpg",
+      "category": "Thời trang nữ",
+      "type": "Giày",
+      "material": "Da cao cấp",
+      "size": "35-40"
+    },
+    {
+      "id": "15",
+      "name": "Giày cao gót quyến rũ",
+      "price": 400000,
+      "discount": 399000,
+      "image": "../../assets/images/giay-nu-2.jpg",
+      "category": "Thời trang nữ",
+      "type": "Giày",
+      "material": "Da cao cấp",
+      "size": "35-40"
+    },
+    {
+      "id": "16",
+      "name": "Giày trẻ em cao cổ giữ ấm",
+      "price": 200000,
+      "discount": 179000,
+      "image": "../../assets/images/giay-tre-em-1.jpg",
+      "category": "Thời trang trẻ em",
+      "type": "Giày",
+      "material": "Vải Wool-like",
+      "size": "29-34"
+    },
+    {
+      "id": "17",
+      "name": "Mũ cao bồi phong trần",
+      "price": 150000,
+      "discount": 119000,
+      "image": "../../assets/images/mu-nam-1.jpg",
+      "category": "Thời trang nam",
+      "type": "Mũ",
+      "material": "Vải Kaki",
+      "size": "XS, S, M, L, XL"
+    },
+    {
+      "id": "18",
+      "name": "Giày tây nam đế cao",
+      "price": 450000,
+      "discount": 350000,
+      "image": "../../assets/images/shoe-1.jpg",
+      "category": "Thời trang nam",
+      "type": "Giày",
+      "material": "Da cao cấp",
+      "size": "39-44"
+    },
+    {
+      "id": "19",
+      "name": "Giày tây nam thoáng khí",
+      "price": 500000,
+      "discount": 430000,
+      "image": "../../assets/images/shoe-2.jpg",
+      "category": "Thời trang nam",
+      "type": "Giày",
+      "material": "Da cao cấp",
+      "size": "39-44"
+    },
+    {
+      "id": "20",
+      "name": "Giày tây nam đen cổ điển",
+      "price": 550000,
+      "discount": 490000,
+      "image": "../../assets/images/shoe-3.jpg",
+      "category": "Thời trang nam",
+      "type": "Giày",
+      "material": "Da cao cấp",
+      "size": "35-40"
+    },
+    {
+      "id": "21",
+      "name": "Giày cao cổ nam du lịch",
+      "price": 620000,
+      "discount": 550000,
+      "image": "../../assets/images/shoe-4.jpg",
+      "category": "Thời trang nam",
+      "type": "Giày",
+      "material": "Vải canvas",
+      "size": "39-44"
+    },
+    {
+      "id": "22",
+      "name": "Giày cao cổ nam thám hiểm",
+      "price": 620000,
+      "discount": 520000,
+      "image": "../../assets/images/shoe-5.jpg",
+      "category": "Thời trang nam",
+      "type": "Giày",
+      "material": "Vải canvas",
+      "size": "39-44"
+    },
+    {
+      "id": "23",
+      "name": "Giày tây nam hoạ tiết",
+      "price": 420000,
+      "discount": 320000,
+      "image": "../../assets/images/shoe-6.jpg",
+      "category": "Thời trang nam",
+      "type": "Giày",
+      "material": "Da cao cấp",
+      "size": "39-44"
+    },
+    {
+      "id": "24",
+      "name": "Áo thun co dãn",
+      "price": 120000,
+      "discount": 100000,
+      "image": "../../assets/images/shorts-1.jpg",
+      "category": "Thời trang trẻ em",
+      "type": "Đồ bộ",
+      "material": "Vải 100% Cotton",
+      "size": "XS, S, M, L, XL"
+    },
+    {
+      "id": "25",
+      "name": "Quần thun co dãn",
+      "price": 120000,
+      "discount": 100000,
+      "image": "../../assets/images/shorts-2.jpg",
+      "category": "Thời trang trẻ em",
+      "type": "Đồ bộ",
+      "material": "Vải 100% Cotton",
+      "size": "XS, S, M, L, XL"
+    },
+    {
+      "id": "26",
+      "name": "Thắt lưng da cao cấp",
+      "price": 420000,
+      "discount": 340000,
+      "image": "../../assets/images/that-lung.jpg",
+      "category": "Thời trang nam",
+      "type": "Thắt lưng",
+      "material": "Da cao cấp",
+      "size": "29-34"
+    },
+    {
+      "id": "27",
+      "name": "Váy nữ công sở",
+      "price": 220000,
+      "discount": 190000,
+      "image": "../../assets/images/vay-nu-1.jpg",
+      "category": "Thời trang nữ",
+      "type": "Váy",
+      "material": "Vải 100% Cotton",
+      "size": "29-34"
+    },
+    {
+      "id": "28",
+      "name": "Váy xoè nữ tính",
+      "price": 250000,
+      "discount": 150000,
+      "image": "../../assets/images/vay-nu-2.jpg",
+      "category": "Thời trang nữ",
+      "type": "Váy",
+      "material": "Vải 100% Cotton",
+      "size": "29-34"
+    },
+    {
+      "id": "29",
+      "name": "Giày nam Runner Flex",
+      "price": 450000,
+      "discount": 420000,
+      "image": "../../assets/images/sports-1.jpg",
+      "category": "Thời trang nam",
+      "type": "Giày",
+      "material": "Vải dệt Knit co giãn + Đế EVA nhẹ",
+      "size": "39-44"
+    },
+    {
+      "id": "30",
+      "name": "Giày nam Trail Beast",
+      "price": 470000,
+      "discount": 419000,
+      "image": "../../assets/images/sports-2.jpg",
+      "category": "Thời trang nam",
+      "type": "Giày",
+      "material": "Vải canvas + Đế cao su đúc",
+      "size": "39-44"
+    },
+    {
+      "id": "31",
+      "name": "Giày nam Velocity Grip",
+      "price": 519000,
+      "discount": 449000,
+      "image": "../../assets/images/sports-3.jpg",
+      "category": "Thời trang nam",
+      "type": "Giày",
+      "material": "Vải Ripstop chống rách + Đế cao su răng cưa",
+      "size": "39-44"
+    },
+    {
+      "id": "32",
+      "name": "Giày nam Urban Motion",
+      "price": 490000,
+      "discount": 419000,
+      "image": "../../assets/images/sports-4.jpg",
+      "category": "Thời trang nam",
+      "type": "Giày",
+      "material": "Vải lưới dệt kỹ thuật + Đế đệm TPR",
+      "size": "39-44"
+    },
+    {
+      "id": "33",
+      "name": "Giày nam AeroLight Pro",
+      "price": 650000,
+      "discount": 419000,
+      "image": "../../assets/images/sports-5.jpg",
+      "category": "Thời trang nam",
+      "type": "Giày",
+      "material": "Vải lưới Mesh + TPU bảo vệ gót",
+      "size": "39-44"
+    },
+    {
+      "id": "34",
+      "name": "Giày nam Street Core",
+      "price": 550000,
+      "discount": 510000,
+      "image": "../../assets/images/sports-6.jpg",
+      "category": "Thời trang nam",
+      "type": "Giày",
+      "material": "Da tổng hợp PU + Đế cao su chống trượt",
+      "size": "39-44"
+    },
+    {
+      "id": "35",
+      "name": "Giày trẻ em cao cổ",
+      "price": 200000,
+      "discount": 179000,
+      "image": "../../assets/images/giay-tre-em-2.jpg",
+      "category": "Thời trang trẻ em",
+      "type": "Giày",
+      "material": "Vải Wool-like",
+      "size": "29-34"
+    }
+  ],
+  "customer_feedbacks": [
+    {
+      "id": "1",
+      "name": "Nguyễn Thanh Hà",
+      "content": "Mình rất ấn tượng với bộ sưu tập đồ nam của shop – thiết kế trẻ trung, chất vải mát và form dáng chuẩn. Nhân viên tư vấn nhiệt tình, chắc chắn sẽ quay lại!",
+      "occupation": "Nhân viên văn phòng",
+      "avatar": "../../assets/images/avatar1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Nguyễn Huỳnh Đức",
+      "content": "Shop có nhiều mẫu áo cực kỳ đẹp và sang, giá cả hợp lý. Mình rất thích không gian cửa hàng, rộng rãi và bày trí bắt mắt. Rất đáng để ghé thăm mỗi khi cần mua đồ!",
+      "occupation": "Designer",
+      "avatar": "../../assets/images/avatar2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Hàn Minh Hoà",
+      "content": "Đồ trẻ em ở shop rất dễ thương, chất liệu mềm mại, an toàn cho bé. Mình mua cho con 2 bộ mà bé mặc rất thoải mái. Sẽ giới thiệu cho các mẹ bỉm khác!",
+      "occupation": "Quản lý",
+      "avatar": "../../assets/images/avatar3.jpg"
+    }
+  ]
+}
