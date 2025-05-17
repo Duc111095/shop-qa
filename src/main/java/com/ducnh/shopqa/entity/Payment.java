@@ -10,15 +10,18 @@ import lombok.Data;
 
 @Entity
 @Data
-@Table(name = "cart_product")
-public class CartProduct {
+@Table(name = "payment")
+public class Payment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    private String fullName;
+    private String email;
+    private String phone;
+    private String address;
+    private String notes;
+    private String paymentMethod;
     private String cartId;
-    private Long productId;
-    private int quantity;
-    private double price;
-    private double discount;
+    private double totalPrice;
 }

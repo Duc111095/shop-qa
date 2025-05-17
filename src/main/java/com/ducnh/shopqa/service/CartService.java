@@ -14,15 +14,16 @@ public class CartService {
     @Autowired
     private CartRepository cartRepository;
 
-    public void addToCart(Long userId) {
+    public String addToCart(Long userId) {
         String cartId = cartRepository.findMaxCartId();
         if (cartId == null || cartId.isEmpty()) {
             cartId = "cart0001";
         } else {
-            String suffix = "0000" + String.valueOf(Long.parseLong(cartId.substring(4) + 1));
+            String suffix = "0000" + String.valueOf(Long.parseLong(cartId.substring(4)) + 1);
             cartId = "cart" + suffix.substring(suffix.length() - 4);
         }
         cartRepository.save(new Cart(cartId, userId, LocalDateTime.now(), LocalDateTime.now()));
+        return cartId;
     }
 
     public List<Cart> getCartByUserId(Long userId) {

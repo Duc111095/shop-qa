@@ -44,7 +44,7 @@ public class ProductController {
     @PutMapping("/{id}")
     public ResponseEntity<String> updateProduct(@PathVariable String id, @RequestBody ProductRequest entity) {
         try {
-            productService.getProductById(Long.parseLong(id));
+            productService.updateProduct(Long.parseLong(id), entity);
         } catch (Exception e) {
             return ResponseEntity.badRequest().body("Unable to update product");
         }
@@ -73,7 +73,7 @@ public class ProductController {
     @DeleteMapping("/{id}")
     public ResponseEntity<String> deleteProduct(@PathVariable String id) {
         try {
-            productService.getProductById(Long.parseLong(id));
+            productService.deleteProduct(Long.parseLong(id));
         } catch (Exception e) {
             return ResponseEntity.badRequest().body("Unable to delete product");
         }
